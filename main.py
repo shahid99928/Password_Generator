@@ -46,4 +46,5 @@ has_special = input("Do you want to have special characters (y/n)? ").lower() ==
 
 # Generate the password with those options, then display it.
 new_password = generate_password(min_length, has_number, has_special)
-print(new_password)
+print("Your password:\n")
+print(new_password) 
